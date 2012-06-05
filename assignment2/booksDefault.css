@@ -1,0 +1,152 @@
+/* Default CSS for favorite books website */
+
+body
+{
+	background: #FCF6DE url('beigeGradientBG.gif');
+	border: 0;
+	font-family: Arial, Helvetica, 'Sans Serif';
+}
+
+h1
+{
+	background-color: #FF500B;
+	font-size: 2.5em;
+	font-family: Arial, Helvetica, 'Sans Serif';
+	color: #3E3E3E;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align:right;
+}
+
+h2
+{
+	font-size: 1.4em;
+	font-family: Arial, Helvetica, 'Sans Serif';
+	color: #8F8F8F;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align:justify;
+	letter-spacing: .15em;
+}
+
+a
+{
+	color: #666666;
+	font-family: Arial, Helvetica, 'Sans Serif';
+	font-size: .83em;
+	text-transform: lowercase;
+	text-decoration: none;
+	word-spacing: .1em;
+	letter-spacing: .1em;
+}
+
+a:hover
+{
+	color: #FF500B;
+}
+
+ul, li
+{
+	list-style-image: url("../V22.0004.002.SP10/starIcon.png");
+	color: #666666;
+	font-family: Arial, Helvetica, 'Sans Serif';
+	font-size: .8em;
+	text-transform: lowercase;
+	text-decoration: none;
+	word-spacing: .09em;
+	letter-spacing: .1em;
+	margin: .4em 0em .1em .3em;
+}
+
+#container
+{
+	width: 700px;
+	margin: 0 auto;
+	padding: 3em 3em 3em 3em;
+
+}
+
+#header
+{
+	vertical-align: top;
+	width: 680px;
+	background-color: transparent;
+}
+
+#sidebar
+{
+	float: right;
+	margin-right: 2em;
+	height: 650px;
+	width: 150px;
+	background-color: transparent;
+	padding: 10px 10px 10px 10px;
+}
+
+#mainContent
+{
+	background-color: #FFFFFF;
+	height: 650px;
+	float:left;
+	width: 450px;
+	margin: 0 auto;
+	padding: 10px 12px 10px 12px;
+}
+
+
+.bookStore
+{
+	/*background-color: transparent;*/
+	background:url('beigeGradientBG.gif');
+	width: 450px;
+	border-style: dotted;
+	border-width: 1px;
+}
+
+.emphasize
+{
+	font-size: 1.3em;
+	color: black;
+}
+
+.linkBox
+{
+	background-color: white;
+	height: 95px;
+	width: 150px;
+	margin-top: 0px;
+	margin-bottom: 21px;
+	padding: 10px 10px 10px 10px;
+}
+
+
+.about
+{
+	vertical-align: top;
+	text-align: justify;
+	color: #666666;
+	font-family: Arial, Helvetica, 'Sans Serif';
+	font-size: .84em;
+	word-spacing: .08em;
+	letter-spacing: .07em;
+	line-height: 2.1ex;
+}
+
+.imageLeft
+{
+	float: left;
+	margin: .05em 1em 1em .2em;
+}
+
+.imageRight
+{
+	float: right;
+	margin: .05em 1em .8em .8em;
+}
+
+.imageDefault
+{
+	vertical-align: top;
+	text-align: center;
+	margin: .05em 1em 1em .2em;
+}

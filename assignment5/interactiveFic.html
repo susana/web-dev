@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Interactive Fiction</title>
+    <link href="interactiveFic.css" rel="stylesheet" type="text/css">   
+</head>
+
+ 
+<body bgcolor=#C3E780>
+
+	<form id="IFForm" name="IFForm" method="post" action="http://schoolwebserver.edu/cgi-bin/cgiwrap/idef/interactiveFic.php">
+		<h2>Interactive Fiction:<br /> 
+		Create your own tale!</h2>
+		
+		<fieldset>
+			<h3>Narrative Components</h3>
+			<p>
+			All narrative component fields are required.
+			</p>
+			
+			<p>
+			<label>Title</label><br /> 
+			<input type="text" name="title" value="" />
+			</p>
+			
+			<p>
+			<label>Time of Day</label><br /> 
+			<input type="radio" value="morning" name="time" checked="check"/>Morning
+			<input type="radio" value="afternoon" name="time" />Afternoon
+			<input type="radio" value="night" name="time" />Night
+			</p>
+						
+			<p>
+			<label>Mode of transport</label><br /> 
+			<select name="transport"> 
+				<option value="walk">Walking</option> 
+				<option value="bus">Bus</option> 
+				<option value="train">Train</option> 
+			</select>
+			</p>
+			
+			<p>
+			<label>Name of a place (real or fictional)</label><br /> 
+			<input type="text" name="location" value="" />
+			</p>
+						
+			<p><label>Creature</label><br /> 
+			<input type="text" name="noun1" value="" />
+			</p>
+			
+			<p>
+			<label>Adverb</label><br /> 
+			<input type="text" name="adverb1" value="" />
+			</p>
+			
+			<p>
+			<label>Dialogue: enter something you'd normally say when faced with something unexpected</label><br /> 
+			<textarea name="dialogue" rows="3" cols="40"></textarea> 
+			</p>
+						
+			<p>
+			<label>Open ending?</label>
+			<input type="checkbox" name="openEnding" />
+			</p>				
+		</fieldset>
+		
+		<fieldset>
+			<h3>Page Display</h3>
+			<p>
+			Page display choices are optional and can be left unmodified.
+			</p>
+
+			<p>
+			<label>Title color</label><br />
+			<select name="headerColor"> 							
+				<option value="black">Black</option>
+				<option value="white">White</option>
+				<option value="yellow">Yellow</option> 
+				<option value="red">Red</option>
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+				<option value="purple">Purple</option>
+			</select>
+			</p>
+			
+			<p>
+			<label>Background color</label><br />
+			<select name="bgColor"> 
+				<option value="white">White</option>				
+				<option value="black">Black</option>
+				<option value="lightyellow">Light Yellow</option> 
+				<option value="lightsalmon">Light Red</option>
+				<option value="lightblue">Light Blue</option>
+				<option value="lightgreen">Light Green</option>
+				<option value="thistle">Light Purple</option>
+			</select>
+			</p>
+			
+			<p>
+			<label>Font color</label><br />
+			<select name="fontColor"> 							
+				<option value="black">Black</option>
+				<option value="white">White</option>
+				<option value="yellow">Yellow</option> 
+				<option value="red">Red</option>
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+				<option value="purple">Purple</option>
+			</select>
+			</p>
+			
+			<p>
+			<label>Font family</label><br />			
+			<input type="radio" value="Times New Roman" name="fontFam" />Times New Roman			
+			<input type="radio" value="Arial, Helvetica" name="fontFam"  />Arial/Helvetica
+			<input type="radio" value="Courier New" name="fontFam" />Courier New
+			</p>
+			
+			<p>
+			<label>Font size</label><br />
+			<input type="radio" value=".7em" name="fontSize" />Small
+			<input type="radio" value=".9em" name="fontSize"  />Medium
+			<input type="radio" value="1.1em" name="fontSize" />Large
+			</p>
+		</fieldset>
+		
+		<p>
+		<input type="submit" value="Publish your tale" name="submit"/>
+		<input type="reset" value="Reset form" />
+		</p>
+	</form>
+	
+</body> 
+</html>

@@ -1,0 +1,73 @@
+body, p
+{
+	border: 0;
+	font-family: Georgia, 'Times New Roman', Times, Serif;
+	font-size: .9em;
+	text-transform: lowercase;
+	word-spacing: .3em;
+}
+
+h1
+{
+	color: #666666;;
+	text-decoration: none;
+	font-weight: normal;
+	letter-spacing: .2em;
+}
+
+a:link
+{
+	color: #669999;
+	text-decoration:none;
+}
+
+a:visited
+{
+	color: #669999;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color: #FFCC66;
+	text-decoration:none;
+}
+
+#container
+{
+	text-align:center;
+	margin: 0 auto;
+}
+
+#header
+{
+	text-align:center;
+	vertical-align: top;
+	background-color: transparent;
+}
+
+#dataEntry
+{
+	background-color: #666666;
+	color: #FFFFCC;
+	width: 350px;
+	height: 120px;
+	text-align:center;
+	border-style: dotted;
+	border-width: 1px;
+	margin: 0px auto;
+	padding: 10px 10px 10px 10px;
+}
+
+#resultBox
+{
+	color: #666666;
+	width: 350px;
+	height: 250px;
+	background-color: transparent;
+	text-align:center;
+	border-style: dotted;
+	border-width: 1px;
+	margin: 0px auto;
+	padding: 10px 10px 10px 10px;
+}

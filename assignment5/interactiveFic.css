@@ -1,0 +1,63 @@
+/* CSS for interactiveFic.html and interactiveFic.php */
+
+body, p
+{
+	color: black;
+	border: 0;
+	font-family: Georgia, 'Times New Roman', Times, Serif;
+	font-size: .9em;
+	text-transform: lowercase;
+	word-spacing: .3em;
+	margin:25px 25px 25px 25px;
+}
+
+h3, h2
+{
+	color: #242626;
+	text-decoration:none;
+	font-weight: strong;
+	letter-spacing: .2em;
+}
+
+h3
+{
+	color: #5A4532;
+}
+
+#content
+{
+	background-color: #F0FFD9;
+	width: 450px;
+}
+
+fieldset
+{
+	width: 450px;
+	background-color: #F0FFD9;
+	margin:25px;
+	padding: 10px 10px 20px 20px;
+	border: 0;
+}
+
+label
+{
+	color: black;
+}
+
+a:link
+{
+	color: #D93D04;
+	text-decoration:none;
+}
+
+a:visited
+{
+	color: #D93D04;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color: #D93D04;
+	text-decoration:none;
+}

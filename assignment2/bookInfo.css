@@ -1,0 +1,44 @@
+/* CSS for pages displaying book info */
+
+@import url(booksDefault.css);
+
+.title
+{
+	font-family: Arial, Helvetica, 'Sans Serif';
+	font-size: 1em;
+	word-spacing: .1em;
+	letter-spacing: .1em;
+	font-weight: bold;
+	color: #FF500B;
+}
+
+.author
+{
+	font-size: .9em;
+	font-family: Arial, Helvetica, 'Sans Serif';
+	word-spacing: .1em;
+	letter-spacing: .1em;
+	font-weight: bold;
+	color: #666666;
+}
+
+.publicationYear
+{
+	font-family: Arial, Helvetica, 'Sans Serif';
+	font-size: .83em;
+	word-spacing: .1em;
+	letter-spacing: .1em;
+	font-style: italic;
+	color: #666666;
+}
+
+.highlights
+{
+	font-family: Arial, Helvetica, 'Sans Serif';
+	text-transform: lowercase;
+	font-size: .7em;
+	word-spacing: .1em;
+	letter-spacing: .1em;
+	color: #666666;
+	margin: 2em 2em 2em 2em;
+}
